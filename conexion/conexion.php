@@ -4,7 +4,7 @@ $conexion;
 $servidor = 'localhost';
 $bd = 'obra';
 $user = 'root';
-$pass = 'Usqpj=Z$';
+$pass = '';
 
 try{
     $conexion = new PDO('mysql:host='.$servidor.';dbname='.$bd, $user, $pass);
