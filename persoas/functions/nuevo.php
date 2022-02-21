@@ -9,7 +9,7 @@ require '../../conexion/sesion.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OBRA 2 SOL</title>
+  <title>Nueva Persona</title>
   <!-- esto no sirve no? -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- CND de bootstrap -> cambiar cuando toque -->
@@ -19,12 +19,12 @@ require '../../conexion/sesion.php';
 </head>
 
 <body>
-  <h1 style="text-align:center">Welcome to SOL</h1>
-  <br><br>
 
   <!-- ESTRUCTURA PARA TENER VARIAS PESTAÑAS DINÁMICAS EN UNA MISMA PÁGINA -->
   <h2 style="text-align:center">Prueba de lo que se abriría al clicar "Novo Rexistro" de Persoas</h2><br>
+
   <div class="t-container">
+
     <ul class="t-tabs">
       <li class="t-tab">Datos Personales</li>
       <li class="t-tab">Formación</li>
@@ -33,12 +33,12 @@ require '../../conexion/sesion.php';
       <li class="t-tab">Ofertas</li>
       <li class="t-tab"><a href="../../login/logout.php">Saír da sesión</a></li>
     </ul>
+
     <ul class="t-contents">
 
       <li class="t-content">
         <!-- <p>Contenido Datos</p> -->
         <h3 class="p-5 text-center">NOVO REXISTRO</h3>
-
 
         <form class="row g-3" method="POST" action="guardar.php" autocomplete="off">
           <div class="col-md-4">
@@ -107,14 +107,13 @@ require '../../conexion/sesion.php';
           <br>
           <div class="col-md-4">
             <div class="">
-              <a href="index.php" class="btn btn-default">VOLTAR</a>
+              <a href="../index.php" class="btn btn-default">VOLTAR</a>
               <button type="submit" class="btn btn-primary">GARDAR</button>
             </div>
           </div>
         </form>
 
       </li>
-
 
       <li class="t-content">
         <p>Contenido Formación</p>

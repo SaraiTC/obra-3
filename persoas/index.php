@@ -10,8 +10,10 @@
 
   <h1>Persoas</h1>
 
-  <h2>Implmentar el index con la tabla</h2>
+  <h2>Implementar el index con la tabla</h2>
 
-  <button onclick="functions/nuevo.php">Novo Rexistro</button>
+  <button>
+    <a href="functions/nuevo.php">Novo Rexistro</a>
+  </button>
 </body>
 </html>
