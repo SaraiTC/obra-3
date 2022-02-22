@@ -1,3 +1,8 @@
+/* CLASES DE LA ESTRUCTURA DE PESTAÑAS, DEBEN MANTENERSE
+t-container = caja div -> ESTILO MODIFICABLE
+t-tabs y t-contents = lista ul -> COMPROBAR SI SE PUEDE
+t-tab y t-content = elementos li -> NECESARIOS PARA EL JS */
+
 .t-container {
   margin: 0 auto;
   padding: 0 2em;

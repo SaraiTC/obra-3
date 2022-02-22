@@ -41,7 +41,7 @@ La organización se hace por carpetas para evitar confusiones o duplicación de 
 
 - index.php -> pantalla principal a la que se accede tras logearse -> SIN ESTILOS, SOLO LINKS DE PRUEBA
 - conexion (conexion.php + sesion.php) -> HECHO
-- login (login.php + logout.php) -> HECHO
+- login (login.php + logout.php) -> HECHO (CAMBIADO PARA QUE TODO SEA MYSQLI)
 - citas, persoas, empresas (aún no completas)
 
 Carpetas de dependencias: assets, node_modules, scss.
@@ -54,6 +54,8 @@ Registros (persoas y empresas): Sarai
 Formación (persoas): Ángela y Fernando
 
 Experiencia (persoas): Xabi
+
+Acciones (persoas): Noe
 
 Ofertas:
 
