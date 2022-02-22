@@ -1,5 +1,7 @@
 # OBRA SOL - DEMO 2
 
+Cambiar la contraseña de root en conexion.php y login-conn.php para abrir en otros ordenadores
+
 ## Creación de un nuevo proyecto + Instalación de dependencias
 
 Pasos hechos en conjunto con el grupo (laragon/www/):

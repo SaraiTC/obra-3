@@ -12,7 +12,7 @@ $codigo_postal = $_POST['codigo_postal'];
 $telefono = $_POST['telefono'];
 $email = $_POST['email'];
 
-$sql = "INSERT INTO persoas_datos (nome, primeiro_apelido, segundo_apelido, nif, data_nacemento, sexo, codigo_postal, telefono, email) VALUES ('$nome', '$primeiro_apelido', '$segundo_apelido', '$nif', '$data_nacemento', '$sexo', '$codigo_postal', '$telefono', '$email')";
+$sql = "INSERT INTO persoas (nome, primeiro_apelido, segundo_apelido, nif, data_nacemento, sexo, codigo_postal, telefono, email) VALUES ('$nome', '$primeiro_apelido', '$segundo_apelido', '$nif', '$data_nacemento', '$sexo', '$codigo_postal', '$telefono', '$email')";
 $resultado = $mysqli->query($sql);
 
 ?>

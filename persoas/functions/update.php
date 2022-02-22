@@ -13,7 +13,7 @@ $codigo_postal = $_POST['codigo_postal'];
 $telefono = $_POST['telefono'];
 $email = $_POST['email'];
 
-$sql = "UPDATE persoas_datos SET nome='$nome', primeiro_apelido='$primeiro_apelido', segundo_apelido='$segundo_apelido', nif='$nif', data_nacemento='$data_nacemento', sexo='$sexo', codigo_postal='$codigo_postal', telefono='$telefono', email='$email' WHERE id = '$id'";
+$sql = "UPDATE persoas SET nome='$nome', primeiro_apelido='$primeiro_apelido', segundo_apelido='$segundo_apelido', nif='$nif', data_nacemento='$data_nacemento', sexo='$sexo', codigo_postal='$codigo_postal', telefono='$telefono', email='$email' WHERE id = '$id'";
 $resultado = $mysqli->query($sql);
 
 ?>

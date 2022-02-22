@@ -10,7 +10,7 @@ if (!empty($_POST)) {
     $where = "WHERE id, nif LIKE '%" . $valor . "%'";
   }
 }
-$sql = "SELECT * FROM persoas_datos $where";
+$sql = "SELECT * FROM persoas $where";
 $resultado = $mysqli->query($sql);
 ?>
 
