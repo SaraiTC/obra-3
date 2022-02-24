@@ -18,10 +18,10 @@ $resultado = $mysqli->query($sql);
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/bootstrap-theme.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
 </head>
 
 <body>
@@ -49,7 +49,7 @@ $resultado = $mysqli->query($sql);
 		<br>
 
 		<div class="row table-responsive">
-			<table class="table table-striped">
+			<table class="table table-striped" id="tabla">
 				<thead>
 					<tr>
 						<th>ID</th>
@@ -83,26 +83,7 @@ $resultado = $mysqli->query($sql);
 	</div>
 
 	<!-- Modal -->
-	<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
 
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel">Eliminar Rexistro</h4>
-				</div>
-
-				<div class="modal-body">
-					¿Desea eliminar este registro?
-				</div>
-
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-					<a class="btn btn-danger btn-ok">Delete</a>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<!-- <button id="myBtn"><a href="#top" style="color: white; text-decoration: none";><i class="fas fa-chevron-up"></i></a></button> -->
 	<div id="myBtn"><a href="#top" ;><i class="fas fa-chevron-up"></i></a></div> 
@@ -118,6 +99,7 @@ $resultado = $mysqli->query($sql);
 		});
 	</script>
 
+	
 </body>
 
 </html>
