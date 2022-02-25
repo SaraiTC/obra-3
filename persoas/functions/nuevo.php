@@ -11,7 +11,7 @@ require '../../conexion/sesion.php';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nova Persoa</title>
   <!-- esto no sirve no? -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/index.css">
   <!-- CND de bootstrap -> cambiar cuando toque -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- ESTILOS DE LAS PESTAÑAS Y SU CONTENIDO -> MODIFICAR CON BOOTSTRAP O LO QUE SEA -->
@@ -460,7 +460,7 @@ require '../../conexion/sesion.php';
   </div>
 
   <!-- footer -->
-  <!-- <footer-component></footer-component> -->
+  <footer-component></footer-component>
 
   <script src="../../tabs.js"></script>
   <script src="../../components/js/related_select_box.js"></script>

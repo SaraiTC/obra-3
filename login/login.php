@@ -72,7 +72,7 @@
 if ($_POST) {
   // session_start();
   require '../conexion/sesion.php';
-  
+  require '../login/login-conn.php';
 
   $_SESSION['usuario'] = "miusuario";
   $_SESSION['estado'] = "conectado";
