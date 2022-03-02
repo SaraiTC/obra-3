@@ -36,12 +36,14 @@ require 'conexion/sesion.php';
         <ul class="list-unstyled">
           <li class="ms-3 mt-2">
             <h6>Portal do empregado
-              <a class="text-muted" href="https://sede.vigo.org/portal-empregado/#/gestionLogin"><img class="bi m-1" height="32" src="./assets/img/portal.png"></a>
+            <img class="bi m-1" height="32" src="./assets/img/portal.png">
+            <a class="text-muted" href="https://sede.vigo.org/portal-empregado/#/gestionLogin"></a>
             </h6>
           </li>
           <li class="ms-3 mt-2">
             <h6>Correo Zimbra
-              <a class="text-muted" href="https://correo.vigo.org/zimbra/"><img class="bi m-1" height="32" src="./assets/img/peque-zimbra.png"></a>
+            <img class="bi m-1" height="32" src="./assets/img/peque-zimbra.png">
+            <a class="text-muted" href="https://correo.vigo.org/zimbra/"></a>
             </h6>
           </li>
           <li class="ms-3 mt-2">

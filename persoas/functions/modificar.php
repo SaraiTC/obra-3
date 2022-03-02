@@ -43,7 +43,6 @@ $row = $resultado->fetch_array(MYSQLI_ASSOC);
       <li class="t-tab">Experiencia</li>
       <li class="t-tab">Acciones</li>
       <li class="t-tab">Ofertas</li>
-      <li class="t-tab"><a href="../../login/logout.php">Saír da sesión</a></li>
     </ul>
 
     <ul class="t-contents">

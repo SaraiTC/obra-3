@@ -35,8 +35,7 @@ require '../../conexion/sesion.php';
       <li class="t-tab">Experiencia</li>
       <li class="t-tab">Accións</li>
       <li class="t-tab">Ofertas</li>
-      <!-- tengo sair aqui mientras no haya header -->
-      <li class="t-tab"><a href="../../login/logout.php">Saír da sesión</a></li>
+      
     </ul>
 
     <ul class="t-contents">

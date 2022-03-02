@@ -37,7 +37,6 @@ $row = $resultado->fetch_array(MYSQLI_ASSOC);
       <li class="t-tab">Datos Empresa</li>
       <li class="t-tab">Ofertas de Formación</li>
       <li class="t-tab">Ofertas de Contratación</li>
-      <li class="t-tab"><a href="../../login/logout.php">Saír da sesión</a></li>
     </ul>
 
     <ul class="t-contents">

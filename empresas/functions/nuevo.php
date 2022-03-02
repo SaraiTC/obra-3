@@ -36,7 +36,6 @@ require '../../conexion/sesion.php';
       <li class="t-tab">Seguimento</li>
       <li class="t-tab">Ofertas de Formación</li>
       <li class="t-tab">Ofertas de Contratación</li>
-      <li class="t-tab"><a href="../../login/logout.php">Saír da sesión</a></li>
     </ul>
 
     <ul class="t-contents">
