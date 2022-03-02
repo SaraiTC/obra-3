@@ -25,28 +25,29 @@ require '../conexion/sesion.php';
 
     <div class="container-resumo">
       <h1>Axenda</h1>
+      <div class="row table-responsive">
+        <?php
+        $sql = "SELECT * FROM citas";
+        $resultado = $mysqli->query($sql);
 
-      <?php
-      $sql = "SELECT * FROM citas";
-      $resultado = $mysqli->query($sql);
-
-      if ($resultado->num_rows > 0) {
-        echo "<table class='table'><tr><th>Resolto</th><th>Data</th><th>Nome</th><th>Hora de comezo</th><th>Hora de saída</th></tr>";
-        while ($row = $resultado->fetch_assoc()) {
-          echo "<tr><td><input type='checkbox'></form><td>" . $row["data"] . "</td><td>" . $row["nome"] . "</td><td>" . $row["horain"] . "</td><td>" . $row["horaout"] . "</td></tr>";
+        if ($resultado->num_rows > 0) {
+          echo "<table class='table table-striped table-hover'><tr class='table-primary'><th>Resolto</th><th>Data</th><th>Nome</th><th>Hora de comezo</th><th>Hora de saída</th></tr>";
+          while ($row = $resultado->fetch_assoc()) {
+            echo "<tr><td><input type='checkbox'></form><td>" . $row["data"] . "</td><td>" . $row["nome"] . "</td><td>" . $row["horain"] . "</td><td>" . $row["horaout"] . "</td></tr>";
+          }
+          echo "</table>";
+        } else {
+          echo "0 resultados";
         }
-        echo "</table>";
-      } else {
-        echo "0 resultados";
-      }
 
-      $mysqli->close();
-      ?>
+        $mysqli->close();
+        ?>
+      </div>
       <div class="row">
         <a href="crear.php" class="btn btn-primary mb-4">Nova Cita</a>
       </div>
-    </div>
 
+    </div>
     <div class="container_notas">
       <h2>Notas</h2>
 

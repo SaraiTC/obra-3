@@ -1,11 +1,12 @@
 <?php
 
-	require '../../conexion/conexion.php';
+require '../../conexion/conexion.php';
   require '../../conexion/sesion.php';
 
 
 	$id = $_POST['id'];
 	$nome = $_POST['nome'];
+	$localidade = $_POST['localidade'];
 	$poboacion = $_POST['poboacion'];
 	$actividade = $_POST['actividade'];
 	$data_incorporacion = $_POST['data_incorporacion'];

@@ -19,13 +19,13 @@
 	
 }
 
-tr:nth-child(even) {background: rgb(224, 224, 224)}
+/* tr:nth-child(even) {background: rgb(224, 224, 224)}
 tr:nth-child(odd) {background: #FFF}
 
 tr:first-child{
 	background: #424242;
 	color: #FFF;
-}
+} */
 
 .container-resumo {
 	float: left;
@@ -37,12 +37,12 @@ tr:first-child{
 h1{
 	margin-bottom: 40px;
 }
-.table{
+/* .table{
 	padding: 15px;
 	border: solid 1px;
 	text-align: center;
 		
-}
+} */
 
 /* Notas */
 
