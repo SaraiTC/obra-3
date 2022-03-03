@@ -166,7 +166,7 @@ $row = $resultado->fetch_array(MYSQLI_ASSOC);
               <select class="form-control" id="universitarios" name="universitarios">
                 <option value="text"></option>
                 <option value="grao">Grao</option>
-                <option value="master">Master</option>
+                <option value="master">Máster</option>
                 <option value="master">Doutorado</option>
               </select>
             </div>
