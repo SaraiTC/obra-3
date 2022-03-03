@@ -34,10 +34,10 @@ require '../../conexion/conexion.php';
 			<div class="row">
 				<div class="row" style="text-align:center">
 					<?php if($resultado) { ?>
-						<h3>REGISTRO MODIFICADO</h3>
+						<h3>REXISTRO MODIFICADO</h3>
 						<a href="/empresas/index.php" class="btn btn-primary">VOLTAR</a>
 						<?php } else { ?>
-						<h3>ERROR AL MODIFICAR</h3>
+						<h3>ERRO AO MODIFICAR</h3>
 						<a href="modificar.php" class="btn btn-primary">VOLTAR</a>
 					<?php } ?>
 
