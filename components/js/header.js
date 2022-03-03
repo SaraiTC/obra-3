@@ -16,32 +16,48 @@ class Header extends HTMLElement {
 }
 </style>
 
-<div id="topheader">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-     <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
-     </div>
-     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home">home<span class="sr-only">(current)</span></a></li>
-          <li><a href="#page1">page 1</a></li>
-          <li><a href="#page2">page 2</a></li>
-          <li><a href="#page3">page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-        </ul>
-     </div>
-  </div>
-</nav>
-</div>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3c6ca0;">
+      <div class="container-fluid">
+      <a class="navbar-brand mx-4" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+    </svg></a>
+
+        <div class="collapse navbar-collapse " id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.php">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/citas/index.php">CITAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/empresas/index.php">EMPRESAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/persoas/index.php">PERSOAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/login/logout.php">SAÍR</a>
+            </li>
+          </ul>
+         
+        <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
+        <div class="input-group">
+        <input class="form-control border rounded-start" type="text" placeholder="..." id="example-search-input">
+        <span class="input-group-append">
+            <button  class="btn btn-secondary rounded-0 rounded-end buscador" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"  class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+</svg>
+            </button>
+        </span>
+ </div>
+        </form>
+      
+        </div>
+      </div>
+    </nav>
 
       `;
     }
