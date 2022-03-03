@@ -38,10 +38,10 @@ $row = $resultado->fetch_array(MYSQLI_ASSOC);
   <div class="t-container">
 
     <ul class="t-tabs">
-      <li class="t-tab">Datos Personales</li>
+      <li class="t-tab">Datos Persoais</li>
       <li class="t-tab">Formación</li>
       <li class="t-tab">Experiencia</li>
-      <li class="t-tab">Acciones</li>
+      <li class="t-tab">Accións</li>
       <li class="t-tab">Ofertas</li>
     </ul>
 
